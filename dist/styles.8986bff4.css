@@ -28,7 +28,8 @@
 
 .image img{
     width: 100%;
-    filter: blur(24px);
+    -webkit-filter: blur(24px);
+            filter: blur(24px);
     transition: 0.3s linear;
 }
 
